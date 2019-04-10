@@ -257,7 +257,7 @@ footer {
 
 /* ----------------------------------------Added Contact Form */
 .contact-form {
-  width:75%;
+  width:85%;
   max-width: 600px;
   position: relative;
   top:50%;
@@ -294,7 +294,7 @@ footer {
   font-size: 14px;
 
 }
-.txtb input textarea {
+.txtb input, .txtb textarea {
   width: 100%
   border:none;
   background: none;
@@ -304,7 +304,7 @@ footer {
 }
 
 .btn {
-  display: block;
+  display: inline-block;
   background: #34495e;
   padding: 14px 0;
   color: white;
