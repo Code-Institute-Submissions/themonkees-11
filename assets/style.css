@@ -54,37 +54,7 @@ nav ul li a {
       font-size: 16px;
 }
 /* ----------------------------------------Nav collapse */
-@media(max-width: 786px) {
 
-      .logo {
-            position: fixed;
-            top: 0;
-            margin-top: 16px;
-      }
-
-      nav ul {
-            max-height: 0px;
-            background: #000;
-      }
-
-      nav.black ul {
-            background: #000;
-      }
-
-      .showing {
-            max-height: 34em;
-      }
-
-      nav ul li {
-            box-sizing: border-box;
-            width: 100%;
-            padding: 24px;
-            text-align: center;
-      }
-
-      .menu-icon {
-            display: block;
-      }
 
 }
 /* ----------------------------------------Smooth scroll*/
@@ -124,7 +94,8 @@ html {
 .pimg1,
 .pimg2,
 .pimg3,
-.pimg4 {
+.pimg4,
+.pimg5{
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -158,9 +129,9 @@ html {
   min-height: 400px;
 }
 
-.pimg1 bookings {
-  background-image: url('images/band.jpg');
-  min-height: 100%;
+.pimg5  {
+  background-image: url('images/booking photo.jpg');
+  min-height: 400px;
 }
 
 .section {
@@ -168,6 +139,14 @@ html {
   padding: 50px 80px;
 }
 
+@media only screen and (max-width:600px) {
+.photo-section, .booking-section { 
+  padding: 0px 0px;
+   }
+   .photo-section > a img {
+     width:150px;
+   }
+}
 .section-light {
   background-color: #f4f4f4;
   color: #666;
