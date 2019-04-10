@@ -1,60 +1,64 @@
-html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 body {
-      font-family: "Helvetica Neue",sans-serif;
-      font-weight: lighter;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
 }
 
 header {
-      width: 100%;
-      height: 100vh;
-      background: url(assets/images/band.jpg) no-repeat 50% 50%;
-      background-size: cover;
+  width: 100%;
+  height: 100vh;
+  background: url(assets/images/band.jpg) no-repeat 50% 50%;
+  background-size: cover;
 }
+
 /* ----------------------------------------Nav*/
 
 .navbar {
   text-decoration: none;
 
-  position:fixed;
+  position: fixed;
   z-index: 1;
-  width:100%;
+  width: 100%;
 }
+
 nav {
-      position: fixed;
-      width: 100%;
-      line-height: 40px;
+  position: fixed;
+  width: 100%;
+  line-height: 40px;
 }
+
 nav ul {
-      line-height: 20px;
-      list-style: none;
-      background: rgba(0, 0, 0, 0);
-      overflow: hidden;
-      color: #fff;
-      padding: 0;
-      text-align: right;
-      margin: 0;
-      padding-right: 40px;
-      transition: 1s;
+  line-height: 20px;
+  list-style: none;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+  color: #fff;
+  padding: 0;
+  text-align: right;
+  margin: 0;
+  padding-right: 40px;
+  transition: 1s;
 }
 
 nav ul li {
-      display: inline-block;
-      padding: 16px 40px;;
+  display: inline-block;
+  padding: 16px 40px;
+  ;
 }
 
 nav ul li a {
-      text-decoration: none;
-      color: #fff;
-      font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
 }
+
 /* ----------------------------------------Nav collapse */
-
-
 
 /* ----------------------------------------Smooth scroll*/
 
@@ -63,15 +67,17 @@ html {
 }
 
 /* ----------------------------------------video player */
-.iframe-container{
+
+.iframe-container {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
   height: 0;
 }
-.iframe-container iframe{
+
+.iframe-container iframe {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -94,7 +100,7 @@ html {
 .pimg2,
 .pimg3,
 .pimg4,
-.pimg5{
+.pimg5 {
   position: relative;
   opacity: 0.70;
   background-position: center;
@@ -128,7 +134,7 @@ html {
   min-height: 400px;
 }
 
-.pimg5  {
+.pimg5 {
   background-image: url('images/booking photo.jpg');
   min-height: 400px;
 }
@@ -139,13 +145,15 @@ html {
 }
 
 @media only screen and (max-width:600px) {
-.photo-section, .booking-section { 
-  padding: 0px 0px;
-   }
-   .photo-section > a img {
-     width:150px;
-   }
+  .photo-section,
+  .booking-section {
+    padding: 0px 0px;
+  }
+  .photo-section>a img {
+    width: 150px;
+  }
 }
+
 .section-light {
   background-color: #f4f4f4;
   color: #666;
@@ -234,12 +242,13 @@ footer {
 }
 
 /* ----------------------------------------Added Contact Form */
+
 .contact-form {
-  width:85%;
+  width: 85%;
   max-width: 600px;
   position: relative;
-  top:50%;
-  left:50%;
+  top: 50%;
+  left: 50%;
   background: #f1f1f1;
   transform: translate(-50%, -50%);
   padding: 30px 40px;
@@ -251,12 +260,13 @@ footer {
 
 }
 
-.contact-form h2{
+.contact-form h2 {
   margin-top: 0;
   font-weight: 200;
 
 }
-.txtb{
+
+.txtb {
   border: 1px solid gray;
   margin: 8px 0;
   padding: 12px 18px;
@@ -264,7 +274,7 @@ footer {
 
 }
 
-.txtb label{
+.txtb label {
   display: block;
   text-align: left;
   color: #333;
@@ -272,9 +282,11 @@ footer {
   font-size: 14px;
 
 }
-.txtb input, .txtb textarea {
+
+.txtb input,
+.txtb textarea {
   width: 100%;
-  border:none;
+  border: none;
   background: none;
   outline: none;
   font-size: 18px;
@@ -289,5 +301,5 @@ footer {
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 8px;
-  width:100%
+  width: 100%
 }
