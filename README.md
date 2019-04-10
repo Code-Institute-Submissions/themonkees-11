@@ -66,6 +66,6 @@ Media and biography Content pertaining the band was obtained from wikipedia.
 
 Additional decorative media was obtained through Pexels.com. 
 
-##Acknowledgements : 
+## Acknowledgements : 
 
 Smooth scrolling with css was found through the following [tutorial](https://www.youtube.com/watch?v=iB0hL-NNUJg&t=175s)Deployment :
