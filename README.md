@@ -68,4 +68,4 @@ Additional decorative media was obtained through Pexels.com. 
 
 ## Acknowledgements : 
 
-Smooth scrolling with css was found through the following [tutorial](https://www.youtube.com/watch?v=iB0hL-NNUJg&t=175s)Deployment :
+Smooth scrolling with css was found through the following [tutorial](https://www.youtube.com/watch?v=iB0hL-NNUJg&t=175s)
